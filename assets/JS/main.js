@@ -30,7 +30,7 @@ form.addEventListener('submit', function (e) {
 });
 
 function indice (imc) {
-    const nivel = ['Abaixodo peso', 'Peso normal', 'Sobrepeso', 'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3', ];
+    const nivel = ['Abaixo do peso', 'Peso normal', 'Sobrepeso', 'Obesidade grau 1', 'Obesidade grau 2', 'Obesidade grau 3', ];
 
     if (imc >= 39.9) return nivel[5];
     if (imc >=34.9) return nivel[4];
